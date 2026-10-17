@@ -31,6 +31,7 @@ body { font-family: 'DM Sans', sans-serif; color: var(--nhs-charcoal); backgroun
 /* Hero */
 .hero { background: var(--nhs-blue-pale); border-bottom: 1px solid var(--nhs-blue-light); padding: 2.25rem 1.75rem 2rem; text-align: center; }
 .hero-inner { max-width: 640px; margin: 0 auto; }
+.hero-logo { display: block; width: 150px; height: 150px; margin: 0 auto 1rem; }
 .hero-tag { display: block; font-size: 12px; font-weight: 500; letter-spacing: 1.5px; text-transform: uppercase; color: var(--nhs-blue-soft); margin-bottom: 0.5rem; }
 .hero h1 { font-size: 34px; font-weight: 500; line-height: 1.25; color: var(--nhs-charcoal); margin-bottom: 0.6rem; }
 .hero p { font-size: 17px; color: var(--nhs-charcoal-mid); line-height: 1.55; }
@@ -147,6 +148,7 @@ footer .fp-note { font-size: 12px; margin-top: 0.4rem; }
   .fp-header-btn { font-size: 12px; padding: 5px 9px; gap: 4px; }
   .hero h1 { font-size: 28px; }
   .hero p { font-size: 16px; }
+  .hero-logo { width: 120px; height: 120px; }
   .cards { grid-template-columns: 1fr; }
   div.card { padding: 1.2rem 1.1rem; }
 }
